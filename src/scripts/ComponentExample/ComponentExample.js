@@ -9,4 +9,4 @@ function ComponentExample() {
 
 }
 
-export default ExampleReactComponent
+export default ComponentExample
