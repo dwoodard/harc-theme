@@ -16,14 +16,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ComponentExample_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ComponentExample.css */ "./src/scripts/ComponentExample/ComponentExample.css");
 
+
+// import style.css from this directory
+
+
+// useState is a React hook use like this:
 
 function ComponentExample() {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    id: "component"
-  }, "Hello from React!");
+    className: "componentExample"
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", {
+    className: "text-xl"
+  }, "Hello from React!"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("pre", null, "/src/scripts/ComponentExample/ComponentExample.js"));
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ExampleReactComponent);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ComponentExample);
+
+/***/ }),
+
+/***/ "./src/scripts/ComponentExample/ComponentExample.css":
+/*!***********************************************************!*\
+  !*** ./src/scripts/ComponentExample/ComponentExample.css ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
